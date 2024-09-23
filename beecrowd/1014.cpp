@@ -4,11 +4,12 @@ using namespace std;
 
 void solve()
 {
-  double a, b, res;
+  int a;
+  double b;
   cin >> a >> b;
-  res = ((a * 3.5) + (b * 7.5)) / 11.0;
-  cout << "MEDIA = " << fixed << setprecision(5) << res << endl;
-}
+
+  cout << fixed << setprecision(3) << a / b << " km/l" << endl;
+};
 
 int main()
 {
