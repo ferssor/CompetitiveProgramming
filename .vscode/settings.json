@@ -1,5 +1,20 @@
 {
   "files.associations": {
-    "array": "cpp"
-  }
+    "array": "cpp",
+    "ostream": "cpp",
+    "cmath": "cpp",
+    "complex": "cpp",
+    "iostream": "cpp"
+  },
+  "ROS2.distro": "jazzy",
+  "python.autoComplete.extraPaths": [
+    "/home/fernando/ros2_ws/install/tpc/lib/python3.12/site-packages",
+    "/home/fernando/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages",
+    "/opt/ros/jazzy/lib/python3.12/site-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/home/fernando/ros2_ws/install/tpc/lib/python3.12/site-packages",
+    "/home/fernando/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages",
+    "/opt/ros/jazzy/lib/python3.12/site-packages"
+  ]
 }
